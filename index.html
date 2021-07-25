@@ -1,16 +1,86 @@
-```html
 <!DOCTYPE html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <title>自己紹介</title>
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple
+    rel="stylesheet">
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <header>
+      <section class="header-container">
+        <h1>Yakuto Otakuchi</h1>
+      </section>
+    </header>
+    <main>
+      <div class="picture">
+        <img
+          id="mypic"
+          class="home-pictures"
+          src="images/snowboard.jpg"
+          alt=""
+        />
+      </div>
+      <section class="wrapper">
+        <div class="container">
+          <div class="content">
+            <h2 class="heading">About ME</h2>
+            <div class="box">
+              <div class="list">
+                <p class="list-title">名前</p>
+                <p class="list-item">太田口　躍斗</p>
+              </div>
+              <div class="list">
+                <p class="list-title">生年月日</p>
+                <p class="list-item">2001年1月5日</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="list">
+                <p class="list-title">出身地</p>
+                <p class="list-item">神奈川県</p>
+              </div>
+              <div class="list">
+                <p class="list-title">大学</p>
+                <p class="list-item">法政大学</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="list">
+                <p class="list-title">スポーツ</p>
+                <p class="list-item">野球</p>
+              </div>
+              <div class="list">
+                <p class="list-title">Instagram</p>
+                <p>
+                  <a
+                    class="list-item"
+                    href="https://www.instagram.com/yakutitchi/?hl=ja"
+                    >yakutitchi</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="countdown">
+        <p id="year" class="box-title">21歳まであと</p>
+        <div class="countdown-box">
+          <p class="countdown-timer">
+            <span id="days" class="box-item"></span>日
+            <span id="hours" class="box-item"></span>時間
+            <span id="minutes" class="box-item"></span>分
+            <span id="seconds" class="box-item"></span>秒
+          </p>
+        </div>
+      </div>
+    </footer>
     <script src="main.js"></script>
   </body>
 </html>
