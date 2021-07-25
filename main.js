@@ -35,20 +35,21 @@ setInterval(Countdown, 1000);
 let picture = [
   "images/snowboard.jpg",
   "images/baseball.jpg",
+  "images/hoseibaseball.jpg",
   "images/baseball2.jpg",
 ];
 
 let num = -1;
 
 const Slideshow = function () {
-  if (num == 2) {
+  if (num == 3) {
     num = 0;
   } else {
     num++;
   }
   document.getElementById("mypic").src = picture[num];
 };
-setInterval(Slideshow, 5000);
+setInterval(Slideshow, 4000);
 
 // let Mypic = document.getElementById("mypic");
 // const goForward = document.getElementById("right");

@@ -29,7 +29,9 @@ body {
 
 /* body部分 */
 .picture {
-  margin-bottom: -8px;
+  margin-bottom: -3px;
+  height: 35rem;
+  background-color: cornsilk;
 }
 
 .heading {
@@ -98,25 +100,31 @@ body {
 
 .list-title {
   margin: 20px 0px 10px 0px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: serif;
   border-bottom: 1px dotted;
   display: inline-block;
-  width: 100px;
+  width: 150px;
+  text-shadow: 0px 2px 3px black;
 }
 
 .list-item {
   margin: 20px;
   color: #ffffff;
+  padding-bottom: 20px;
   font-family: monospace;
-  font-size: 20px;
+  font-size: 25px;
   text-shadow: 3px 5px 10px rgb(0, 0, 0);
 }
 
 .box-title {
   text-align: center;
   margin: 0px;
-  font-size: 20px;
+  color: chartreuse;
+  text-shadow: 0px 2px 3px rgb(0, 0, 0);
+  font-size: 25px;
+  font-family: "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体",
+    sans-serif;
 }
 
 .box-item {
@@ -127,7 +135,7 @@ body {
 }
 
 .countdown {
-  background-color: skyblue;
+  background-color: cornsilk;
   padding: 10px;
 }
 
@@ -144,62 +152,4 @@ body {
   margin-top: 15px;
   width: 100%;
   height: auto;
-}
-
-.arrow {
-  position: relative;
-  top: 0;
-  display: inline-block;
-  padding: 0 0 0 16px;
-  color: #000;
-  vertical-align: middle;
-  text-decoration: none;
-  font-size: 15px;
-}
-
-.arrow-left {
-  float: left;
-  top: 207px;
-  left: -20px;
-}
-
-.arrow-right {
-  float: right;
-  top: -200px;
-  right: -20px;
-}
-
-.arrow::before {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  content: "";
-  vertical-align: middle;
-}
-
-.arrow-left::before,
-.arrow-right::before {
-  left: 0px;
-  top: 0px;
-  width: 15px;
-  height: 15px;
-  opacity: 0.65;
-}
-
-.arrow-left::before {
-  margin-left: 28px;
-  border-top: 2px solid #ffffff;
-  border-left: 2px solid #ffffff;
-  -webkit-transform: rotate(315deg);
-  transform: rotate(315deg);
-}
-
-.arrow-right::before {
-  margin-left: -28px;
-  border-top: 2px solid #ffffff;
-  border-right: 2px solid #ffffff;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
 }
