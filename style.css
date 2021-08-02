@@ -25,11 +25,12 @@ header {
 
 body {
   margin: 0px;
+  width:100%;
 }
 
 /* body部分 */
 .picture {
-  margin-bottom: -3px;
+  margin-bottom: -5px;
   height: 35rem;
   background-color: cornsilk;
 }

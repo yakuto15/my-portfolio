@@ -17,7 +17,7 @@ const Countdown = function () {
   const Diff = Birthday - ThisYear;
 
   const day = Math.floor(Diff / 1000 / 60 / 60 / 24);
-  const hour = Math.floor(Diff / 100 / 60 / 60) % 24;
+  const hour = Math.floor(Diff / 1000 / 60 / 60) % 24;
   const minute = Math.floor(Diff / 1000 / 60) % 60;
   const second = Math.floor(Diff / 1000) % 60;
 
